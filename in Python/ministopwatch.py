@@ -1,0 +1,9 @@
+import time
+
+print("Stopwatch started...")
+start = time.time()
+
+input("Press Enter to stop...")
+
+end = time.time()
+print("Elapsed time:", round(end - start, 2), "seconds")
